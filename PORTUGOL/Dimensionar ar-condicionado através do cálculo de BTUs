@@ -1,0 +1,21 @@
+programa {
+ funcao inicio() {
+    real btu, m2
+    inteiro pes,ap,pesap
+
+    escreva("Quantas metros quadrados há o cômodo que você quer climatizar?\n")
+    leia(m2)
+    btu=(m2*600)
+
+    escreva ("Quantas pessoas usam o ambiente ao mesmo tempo?\n") 
+    leia(pes)
+
+    escreva("Quantos aparelhos eletrônicos há no local?\n")
+    leia(ap)
+    pesap=((pes+ap)*600)
+
+    btu=(btu+pesap)
+
+    escreva("Capacidade estimada em BTU's para uma unidade de ar condicionado: \n", btu," BTU/h\n")
+  }
+}
