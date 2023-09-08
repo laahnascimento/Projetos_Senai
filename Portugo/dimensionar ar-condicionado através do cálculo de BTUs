@@ -1,5 +1,6 @@
 programa {
- funcao inicio() {
+ funcao inicio() 
+{
     real btu, m2
     inteiro pes,ap,pesap
 
